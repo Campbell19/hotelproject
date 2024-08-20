@@ -1,0 +1,579 @@
+.top{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #043040;
+}
+
+.top h1{
+    padding-top: 60px;
+}
+
+.line{
+    width: 1280px;
+    height: 0.8px;
+    background-color: rgb(219, 219, 219);
+    margin-top: 30px;
+}
+
+.line2{
+    width: 80px;
+    height: 0.8px;
+    background-color: peru;
+    margin-left: 620px;
+    margin-top: -10px;
+}
+
+.line3{
+    width: 80px;
+    height: 0.8px;
+    background-color: peru;
+    margin-left: 620px;
+    margin-top: -30px;
+}
+
+.line4{
+    width: 230px;
+    height: 0.8px;
+    background-color: peru;
+    margin-left: 550px;
+    margin-top: -11px;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    padding: 50px 140px;
+}
+
+.image-wrapper1 img{
+    width: 1000px;
+    margin-right: 50px;
+    
+}
+
+
+.sroom{
+    width: 100%;
+    height: 150vh;
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    
+}
+
+.sroomleft{
+    width: 65%;
+
+}
+
+.sroomright{
+    width: 35%;
+}
+
+.container2{
+    width: 800px;
+    height: 820px;
+    background-color: rgb(250, 247, 248);
+    border-radius: 1px;
+    margin: 70px;
+    position: relative;
+}
+
+.line5{
+    width: 680px;
+    height: 0.8px;
+    background-color: peru;
+    margin-top: 100px;
+    position: absolute;
+    top: -40px;
+    left: 38px;
+}
+
+.container2 h2{
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    color: #043040;
+}
+
+.line6{
+    width: 680px;
+    height: 0.8px;
+    background-color: peru;
+    position: absolute;
+    top: 110px;
+    left: 38px;
+    
+}
+
+.rd{
+    color: #cda274;
+    position: absolute;
+    top: 140px;
+    left: 38px;
+    letter-spacing: 6px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.roomde{
+    position: absolute;
+    top: 160px;
+    left: 35px;
+    line-height: 1.9rem;
+    font-size: 19px;
+}
+
+ul{
+    position: absolute;
+    top: 280px;
+    left: 30px;
+
+}
+
+li{
+    font-family: 'Poppins', sans-serif;;
+    font-size: 17px;
+    line-height: 1.8rem;
+}
+
+
+.book{
+    position: absolute;
+    top: 720px;
+    left: 35px;
+    color: white;
+    background-color: peru;
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 1.4;
+    
+    
+}
+
+.book:hover{
+    background-color: white;
+    color: #043040;
+    transition: all 0.3s ease-out;
+    
+}
+
+.container3{
+    width: 300px;
+    height: 420px;
+    background-color: rgb(250, 247, 248);
+    border-radius: 1px;
+    margin: 70px;
+    
+}
+
+.rf{
+    color: peru;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 6px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.dk{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 60px;
+
+}
+
+.dk p{
+    
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    color: #333333;
+}
+
+.dk .bi-people-fill{
+    color: #cda274;
+    font-size: 22px;
+    
+
+}
+
+.br{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 60px;
+    padding-top: 10px;
+
+
+}
+
+.br p{
+
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    color: #333333;
+
+}
+
+.br .bi-cup-hot-fill{
+    color: #cda274;
+    font-size: 22px;
+}
+
+.ac{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 60px;
+    padding-top: 10px;
+
+}
+
+.ac p{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    color: #333333;
+}
+
+.ac .bi-brightness-high{
+    color: #cda274;
+    font-size: 22px;
+}
+
+.mb{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 60px;
+    padding-top: 10px;
+ 
+}
+
+.mb p{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    color: #333333;
+}
+
+.mb .bi-hourglass-top{
+    color: #cda274;
+    font-size: 22px;
+}
+
+.ws{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.ws p{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    color: #333333;
+}
+
+.ws .bi-wifi-2{
+    color: #cda274;
+    font-size: 40px;
+}
+
+.fp{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+
+}
+
+.fp p{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    color: #333333;
+
+}
+
+.fp .bi-car-front-fill{
+    color: #cda274;
+    font-size: 30px;
+}
+
+    .last {
+        width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #1E2529;
+    
+} 
+
+/* .last img{
+    margin-bottom: 300px;
+    width: 100px;
+    height: 100px;
+}  */
+
+.firstside{
+    width: 30%;
+    position: relative;
+}
+
+.middleside{
+    width:45%;
+    position: relative;
+
+}
+
+.lastside{
+    width: 30%;
+    position: relative;
+}
+
+.tag ul{
+    position: absolute;
+    top: 80px;
+    margin: 20px;
+    
+}
+
+.tag ul li{
+    padding: 8px;
+    list-style: none;
+    
+}
+
+.tag ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.middle{
+    position: absolute;
+    left: 200px;
+    top: 80px;
+
+}
+
+.middle img{
+    width: 110px;
+    height: 120px;
+}
+
+.mapp{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 210px;
+    left: 50px;
+    
+}
+
+.mapp .bi-map{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: -25px;
+}
+
+.mapp p{
+    color: white;
+    margin-top: 10px;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    position:absolute;
+    top: 260px;
+    left: 46px;
+}
+
+.phone .bi-telephone-fill{
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: -25px;
+}
+
+.phone P{
+    color: white;
+    font-size: 15px;
+}
+
+.fax{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+    left: 45px;
+}
+
+.fax .bi-telephone-fill{
+    color: white;
+    position: absolute;
+    left: -25px;
+    
+}
+
+.fax p{
+    color: white;
+}
+
+.lope{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 330px;
+    left: 45px;
+}
+
+.lope .bi-envelope-fill{
+    color: white;
+    position: absolute;
+    left: -25px;
+}
+
+.lope p{
+    color: white;
+}
+
+.news{
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    color: #cda274;
+    letter-spacing: 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.allowsend{
+    position: absolute;
+    top: 220px;
+    left: 40px;
+}
+
+.allowsend input{
+    height: 24px;
+    width: 230px;
+    box-shadow: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 3px 8px;
+    color: #555555;
+    background-color: transparent;
+    background-image: none;
+    border-color: #c99c6c;
+}
+
+.bi-send{
+    position: absolute;
+    left: 216px;
+    top: 3px;
+    font-size: 20px;
+    background-color: #cda274;
+    padding: 3px 6px;
+    color: white;
+    
+    
+    
+}
+
+.bi-send:hover{
+    color: #c99c6c;
+    background-color: #1E2529;
+    transition: all 0.3s ease-out;
+}
+
+.icons{
+    display: flex;
+    position: absolute;
+    top: 300px ;
+    left: 85px;
+    gap: 25px;
+    color: white;
+}
+
+
+.icons :hover{
+    color: #cda274;
+}
+
+.line7{
+    width: 1100px;
+    height: 0.8px;
+    background-color: rgb(219, 219, 219);
+    position: absolute;
+    top: 500px;
+    left: -270px;
+}
+
+.com{
+    position: absolute;
+    top: 530px;
+    left: 190px;
+    color: white;
+    background-color: rgb(194, 147, 100);
+    width: 150px;
+    height: 50px;
+    padding-left: 30px;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.9px;
+    font-size: 12px;
+    font-weight: 900;
+    cursor: pointer;
+    line-height: 1.8;
+    letter-spacing: 3px;
+    
+    
+}
+
+.com:hover{
+    color: #cda274;
+    background-color: #1E2529;
+    transition: all 0.3s ease-out;
+}
+
+.copy{
+    position: absolute;
+    top: 590px;
+    left: 140px;
+    color: white;
+}

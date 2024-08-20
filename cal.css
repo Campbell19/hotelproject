@@ -1,0 +1,32 @@
+.container{
+    background-color: brown;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    padding: 10px 40px;
+    flex-direction: column;
+    margin-top: 200px;
+
+}
+
+.display{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: white;
+    text-align: right;
+    font-size: 40px;
+}
+
+.button{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+    margin: 5px 10px;
+    width: 50px;
+}
